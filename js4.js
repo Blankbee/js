@@ -1,4 +1,4 @@
-//Classes
+//Object Literals
 const person={
     firstName: 'Saul',
     lastName: 'Goodman',
