@@ -1,6 +1,7 @@
 //DOM
 // ELEMENT SELECTORS
-
+const btn = document.querySelector('.btn');
+const ul = document.querySelector('.items');
 // Single Element Selectors
 /*
 console.log(document.getElementById('my-form'));
@@ -15,7 +16,7 @@ items.forEach((item) => console.log(item));
 */
 /*
 // MANIPULATING THE DOM
-const ul = document.querySelector('.items');
+
 // ul.remove();
 // ul.lastElementChild.remove();
 ul.firstElementChild.textContent = 'Hello';
@@ -42,7 +43,7 @@ btn.addEventListener('click', e => {
   nameInput.addEventListener('input', e => {
     document.querySelector('.container').append(nameInput.value);
   });
-  */
+*/
  // USER FORM SCRIPT
 
 // Put DOM elements into variables
